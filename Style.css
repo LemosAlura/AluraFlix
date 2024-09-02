@@ -1,0 +1,58 @@
+BODY {
+    color:white;
+    background: burlywood;
+    margin: 10px;
+    font-family: "Abril Fatface", serif;
+}
+
+header {
+    border-bottom: solid 3px rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 50px;
+    color:brown
+}
+
+.chamada {
+    background:brown;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.video {
+    margin-left:75px;
+
+}
+
+.texto{
+    font-size: 25px;
+    
+}
+img {
+
+}
+.categoria-videos{
+    display: flex;
+    overflow-x:auto;
+    gap: 5px;
+
+}
+.categoria{
+    padding-left: 30;
+    padding-right: 30px;
+
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 400px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+.categoria h2{
+    color: brown;
+}
